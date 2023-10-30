@@ -1,0 +1,75 @@
+
+/**/
+
+body { font: 15pt "Charis SIL"; }
+
+small, sup, sub { font-size: 80%; }
+pre, code, kbd { font-family: "DejaVu Sans Mono" }
+article { font: 12pt "DejaVu Sans Mono"; }
+p { font: 15pt "Charis SIL"; }
+table { font: 12pt "Charis SIL"; }
+h1, h2, h3, h4, h5, h6 { font-family: "Charis SIL"; font-weight: bold; }
+.xxl, h1 { font-size: 30pt }
+.xl, h2 { font-size: 24pt }
+.l, h3 { font-size: 18pt }
+.m, h4 { font-size: 15pt }
+.s, h5 { font-size: 12pt }
+.xs, h6 { font-size: 9pt }
+.xxs { font-size: 6pt }
+pre { font-size: 12pt; line-height: 18pt; }
+pre>code { font-size: 12pt; line-height: 18pt; }
+
+/**/
+
+body { background: #FFF8E7; color: #000718; margin: 12px; margin-top: 68px }
+code, kbd { background-color: #303030; color: #F0F0F0; padding: 0 .2em; border-radius: .125em; }
+
+article { width: 82.5ch; margin: 0 auto; }
+
+header { color: #FFF8E7; background: #000718; height: 56px; max-height: 56px; position: fixed; top: 0; left: 0; width: 100%; }
+header h1 { margin: 0 12px; line-height: 56px; font-size: 32px; }
+header a { text-decoration: none; color: inherit }
+
+.black  { background: #000000; color: #FFFFFF }
+.grey   { background: #777777; color: #FFFFFF }
+.white  { background: #FFFFFF; color: #FFFFFF }
+.red    { background: #C40233; color: #FFFFFF }
+.green  { background: #009F6B; color: #FFFFFF }
+.yellow { background: #FFD300; color: #FFFFFF }
+.blue   { background: #0087BD; color: #FFFFFF }
+.brown  { background: #71350D; color: #FFFFFF }
+.purple { background: #624578; color: #FFFFFF }
+.orange { background: #E26B1A; color: #FFFFFF }
+.pink   { background: #E28199; color: #FFFFFF }
+.cyan   { background: #55B3B7; color: #FFFFFF }
+
+.rounded { border-radius: .125em }
+.square { display: inline-block; width: 1em; height: 1em; filter: drop-shadow(.125rem .125rem .125rem #777777); vertical-align: -.1em }
+
+table {
+    border-spacing: .25em;
+    border-collapse: separate;
+}
+th {
+    font-weight: normal;
+    font-style: italic;
+}
+th, td {
+    padding: .125em 0;
+    border-radius: .125em
+}
+
+pre {
+    display: block;
+    padding: 0;
+}
+
+pre>code {
+    display: block;
+    padding: .75ch 1.25ch;
+    border-radius: .5ch;
+}
+
+.highlight {
+    border-radius: .5ch;
+}

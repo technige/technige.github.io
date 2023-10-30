@@ -3,23 +3,25 @@
 <html>
 <head>
 <title>Programming Language Keywords</title>
-<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+<link rel="stylesheet" href="clarity.css">
 <style>
-body { background-color: #002B36; color: #FDF6E3; font-family: 'Fira Sans', sans-serif; width: 1120px; margin: 2em; }
-table.keywords tr.keyword:hover { background-color: #073642; color: #EEE8D5; }
+table.keywords tr.keyword:hover { background-color: #EEE8D5; color: #CCCCCC; }
 table.keywords td { min-width: 6em; }
 table.keywords th:first-child { text-align: left; }
 table.keywords td:first-child { text-align: left; padding-right: 1em; }
-table.keywords tr.keyword:hover td:first-child { color: #B58900; }
-table.keywords td { font-family: 'Fira Mono', monospace; text-align: center; }
-table.keywords td.kw { background-color: #2AA198; }
+table.keywords tr.keyword:hover td:first-child { color: #333333; }
+table.keywords td { font-family: "DejaVu Sans Mono", monospace; text-align: center; }
+table.keywords td.kw { background-color: #2AA198; color: #FFFFFF }
 table.keywords td.ctx { background-color: #839496; }
-table.legend.keywords { font-family: 'Fira Sans', sans-serif; background-color: #073642; position: fixed; right: 2em; top: 2em }
-table.legend.keywords caption { font-style: italic; }
+table.legend.keywords { font-family: 'Charis SIL', serif; color: #FFF8E7; background: #000718; position: fixed; right: 0; top: 56px; padding: .35em; }
 table.legend.keywords td { text-align: left; padding: 0 .5em; }
 </style>
 </head>
 <body>
+  <header>
+    <h1><a href="/">Technically Nigel</a></h1>
+  </header>
+
     <h1>Programming Language Keywords</h1>
     
     <p>
@@ -28,7 +30,6 @@ table.legend.keywords td { text-align: left; padding: 0 .5em; }
     </p>
 
     <table class="keywords legend">
-        <caption>Legend</caption>
         <tr><td class="kw"></td><td>Keyword (permanently reserved word)</td></tr>
         <tr><td class="ctx"></td><td>Contextual (reserved in some contexts)</td></tr>
     </table>
